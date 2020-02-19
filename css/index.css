@@ -10,8 +10,9 @@
 */
 
 .text-small {
-  font-size: 100%;
+  font-size: 80%;
 }
+
 
 .text-italic {
   font-style: italic;
@@ -22,6 +23,9 @@
   font-size: 97%;
 }
 
+.text-secondary {
+  font-size: 70%;
+}
 
 
 /* Removing the bottom margin in the Languages and Skills area */
@@ -63,6 +67,7 @@
 a.text-blue:link  {
   color: #1c4966;
   border-bottom: 1px solid currentColor;
+  font-size: 80%
 }
 a.text-white-link:link  {
   color: white;
@@ -81,7 +86,7 @@ a.text-white-link:visited {
 
 /* Link color while being hovered on */
 a.text-blue:hover {
-  color: blue;
+  color: #2277aa;
   border-bottom: 1px solid currentColor;
   text-decoration: none;
 }
